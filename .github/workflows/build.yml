@@ -11,7 +11,7 @@ jobs:
 
       - name: Build APK
         id: build
-        run: bash ./gradlew assembleFullRelease
+        run: bash ./gradlew :app:assembleFullRelease
 
       - name: Sign APK
         id: sign_apk
